@@ -114,7 +114,7 @@ To Integrate packer with Ansible:
 #### Ansible variables
 The following variables can be modified by the user. User need to edit **2-Create AMI/playbook/variables.yml** file
   - `java_home`: The java home being used to create tomcat service file. (Default: java-1.8.0-openjdk-amd64 )
-  - `tomcat_url`: The url to download the tomcat .tar.gz file. (Default: http://apache.mirror.digitalpacific.com.au/tomcat/tomcat-8/v8.5.24/bin/apache-tomcat-8.5.24.tar.gz)
+  - `tomcat_url`: The url to download the tomcat .tar.gz file. (Default: http://apache.mirror.digitalpacific.com.au/tomcat/tomcat-8/v8.5.56/bin/apache-tomcat-8.5.56.tar.gz)
 
 #### Running ansible playbook independently
 1. All the instances where apache should be installed should have their IP's mentioned in "inventory.txt" file.
